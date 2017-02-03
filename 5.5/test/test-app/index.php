@@ -6,7 +6,7 @@
 <h1>PHP is working</h1>
 <p>
 <?php
-	phpinfo();
+	exec('echo $S2I_PHP_CONTAINER_PORT_8080_TCP_ADDR');
 ?>
 </p>
 </body>
