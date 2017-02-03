@@ -6,7 +6,7 @@
 <h1>PHP is working</h1>
 <p>
 <?php
-	phpinfo();
+	exec('hostname -i');
 ?>
 </p>
 </body>
